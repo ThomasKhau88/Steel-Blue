@@ -1,0 +1,9 @@
+.header {
+    border-color: black;
+    border-width: bold;
+    margin: 20px;
+    padding: 20px;
+    background-color: steelblue;
+    color: whitesmoke;
+}
+
