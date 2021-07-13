@@ -1,0 +1,30 @@
+/* .navbar-light {
+    background-color: yellow !important;
+    border: none !important;
+    border-width:0!important;
+} */
+
+.nav-item:hover {
+    background-color: #689cc7;
+}
+
+.nav-link{
+    color: white;
+}
+
+#head {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.btn {
+    background-color: rgb(0, 153, 255);
+}
+
+.btn:hover {
+    background-color: rgb(89, 189, 255);
+}
