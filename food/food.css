@@ -1,0 +1,10 @@
+h1{
+    color: purple;
+    border-style: solid;
+    border-color:purple;
+    border-width: 5px;
+    background-color: plum;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    text-align: center;
+}
