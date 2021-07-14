@@ -1,7 +1,15 @@
+
 .dropdowns{
     
+
     color:#4682b4;  
     height:200px;
-    width: 1000px;
-    padding-right:30px;
+    width: 1200px;
+    position:relative;
+    padding-left:75px; 
+    
+}
+.page{
+    background-color: #88c6f8;
+    height:690px;
 }
