@@ -3,25 +3,26 @@
 .button{
     display:inline-block;
     padding:25px;
-    color:#111;
+    color:rgb(255, 255, 255);
     text-align: center;
-    background-color: antiquewhite;
-    border: 2px solid;
-    border-color: rgb(240, 209, 144);
-    background-image: linear-gradient(to bottom, #f8d593da, rgb(255, 175, 4));
-    box-shadow: inset 0 1px rgba(192, 111, 111, 0.09) 0 1px 0 1px;
+    background-color: rgb(34, 194, 243);
+    border:2px solid;
+    border-color: rgb(0, 143, 238);
+    background-image: linear-gradient(to bottom, #4682b4, rgb(148, 212, 255));
+    box-shadow: inset 0 1px rgba(22, 17, 17, 0.09) 0 1px 0 1px;
     text-decoration: none;
     position:relative;
+    font-family:cursive;
 
 }
 
 .button:hover{
 background-color:rgb(214, 196, 196);
-background-image:linear-gradient(to bottom, rgb(235, 192, 192), rgba(37, 238, 154, 0.692));
+background-image:linear-gradient(to bottom, rgb(33, 153, 143), rgba(47, 74, 150, 0.692));
 }
 .button:active, .button:active{
-    background-color:#924545;
-    border-color:#140e0e #202020 #222;
+    background-color:#ffffff;
+    border-color:#1e193a #202020 #222;
     box-shadow: inset 0 2px 4px rgba(78, 231, 47, 0.3), 0 1px rgba(255, 255, 255, .09)
 }
 
@@ -77,4 +78,21 @@ background-image:linear-gradient(to bottom, rgb(235, 192, 192), rgba(37, 238, 15
   .image__description{
       font-size: 1.25em;
       margin-top: 0.5em;
+  }
+
+  #doThis{
+      color: rgb(0, 174, 255);
+      font-size: 40px;
+      margin:auto;
+      text-align:right;
+      padding-bottom: 100px;
+      padding-right: 100px;
+      width: 20%;
+      border: 1px dashed green;
+      
+      
+  }
+
+  #textright{
+      padding-left: 30px;
   }
