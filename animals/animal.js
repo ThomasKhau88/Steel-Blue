@@ -31,31 +31,38 @@ var facts = [
 
 ];
 
+var image_array = [
+'dolphins.jpeg',
+'eagles.jpeg',
+'PolarBears.jpeg'
+
+];
+
+function get_random_image(){
+    // Get a random index
+    random_index = Math.floor(Math.random() * image_array.length);
+  
+    // Get an image at the random_index
+    selected_image = image_array[random_index]
+  
+    // Display the image
+    document.getElementById('image_shower').src = `./images/${selected_image}`
+  }
+
+
+
+
 function buttonclick(){
     var randOption = Math.floor(Math.random() * facts.length);
     document.getElementById('doThis').innerHTML = facts[randOption];
-    opacity=1;
 
 
 }
 
 function btndis1(){
-
     document.getElementById("aaaa").innerHTML = "";
     alert("Hover over images to learn more about them");
-    alert("Click on Learn more to get more random fun facts!");
+    alert("Click on learn more to get more random fun facts!");
 }
 
-function facts() { 
-    var sports = $(".sport")
-    $(".btn1").on("click", function(){
-        animal.animate({opacity: "1"});
-    });
-    $(".btn2").on("click", function(){
-        animal.animate({opacity: "0"});
-    });
-}
-function start(){
-    opacity=0;
-}
 
