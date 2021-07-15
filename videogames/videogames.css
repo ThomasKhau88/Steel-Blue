@@ -1,9 +1,30 @@
-.header {
-    border-color: black;
+.navCategory:hover {
+    background-color: #689CC7;
+}
+.nav-link {
+    color: white;
+}
+
+.Header {
+    border:5px solid  rgb(12, 9, 168);
     border-width: bold;
     margin: 20px;
     padding: 20px;
     background-color: steelblue;
     color: whitesmoke;
+    text-align: center;
 }
+
+.videogames {
+    border:3px solid rgb(141, 11, 11);
+    border-width: bold;
+    margin: 20px;
+    padding: 20px;
+    background-color: tomato;
+    color: whitesmoke;
+    text-align: center;
+    display: none;
+}
+
+
 
