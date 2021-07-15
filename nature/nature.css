@@ -13,3 +13,53 @@
     background-color: #88c6f8;
     height:690px;
 }
+.image1{
+    position: absolute;
+    top:355px; left:480px;
+    opacity: 1;
+    
+}
+.image2{
+    position:absolute;
+    top:355px; left:0px;
+    opacity: 0;
+    padding-left: 75px;
+    padding-right:5px;
+
+}
+.image3{
+    position: absolute;
+    top:346px; left:880px;
+    opacity: 0;
+    padding-right: 75px;
+    padding-left:5px;
+    
+    
+}
+.nav-item:hover {
+    background-color: #689cc7;
+}
+
+.nav-link{
+    color: white;
+}
+
+#head {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.btn {
+    background-color: rgb(0, 153, 255);
+}
+
+.btn:hover {
+    background-color: rgb(89, 189, 255);
+}
+
+
+
