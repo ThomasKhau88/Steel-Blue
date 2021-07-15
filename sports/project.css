@@ -1,14 +1,24 @@
 .sport{
-    background-color: chartreuse;
     opacity: 0;
-    font-size: large;
+    font-size:large;
+    font-family:cursive;color:mintcream;
 }
 h1{
     border-style: ridge;
     border-color: red;
     border-width: 30px;
     background-color: yellow;
+    text-align: center;
 }
-body{
+.sport{
     background-color: darkgreen;
+}
+#trophyroom{
+font-family:cursive;color:darkgoldenrod    
+}
+.navCategory:hover {
+    background-color: #689CC7;
+}
+.nav-link {
+    color: white;
 }
