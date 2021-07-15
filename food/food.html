@@ -4,22 +4,69 @@
         <title>Food</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="food.css"/> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="javalava.js"></script>        
     </head>
     <body onload="initialize()">
+
+        <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: #4682B4;">
+            <a class="navbar-brand" href="#" style = "color: white;">Random Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../animals/animals.html">Animals</a>
+                    </li>
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../food/food.html">Food</a>
+                    </li>
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../history/history.html">History</a>
+                    </li>
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../movies/movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../nature/nature.html">Nature</a>
+                    </li>
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../space/space.html">Space</a>
+                    </li>
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../sports/sports.html">Sports</a>
+                    </li>
+                    <li class="nav-item navCategory">
+                        <a class="nav-link" style = "color: white;" href="../videogames/videogames.html">Video Games</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
         <h1>Food Around The World</h1>
-        <h2>Italy</h2>
+        <hr>
+        <h2 class="header">Italy</h2>
         <p>Italy is mainly known for the delicious pizza and pasta. The most famous pasta from Italy is penne and the most famous sauce is bolognese. The most popular pizza is margherita. If you click the button below, it will show you pictures of Italian food. </p>
         <div id="thebutton1" class="button1">
             <button>Show Italian Food</button>
         </div>
         <div id="thebutton2" class="button2">
             <button>Hide Italian Food</button>
-        </div>
-        <h3>China</h3>
-        <h4>Greece</h4>
-        <h5>Mexico</h5>
+        </div> 
+        <div class="food">
+            <img src="marghertiapizza.jpeg" alt="Margherita Pizza">
+        </div>  
+        <hr>
+        <h3 class="header">China</h3>
+        <p>The chinese cuisine is very popular among many countries. Some popular dishes are General Tso's chicken, egg rolls, and fried rice. </p>
+        <hr>
+        <h4 class="header">Greece</h4>
+        <p>Greece has amazing dishes consisting of Moussaka and Souvlaki.</p>
+        <hr>
+        <h5 class="header">Mexico</h5>
+        <p>Obviously, tacos and burritos are staples in Mexico, but a very popular breakfast dish is chilaquiles. Chilaquiles is toasted corn tortilla with hot sauce, chicken, chorizo, shredded beef, and an egg on top.</p>
     </body>
 </html>
 
