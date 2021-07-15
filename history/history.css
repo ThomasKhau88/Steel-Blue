@@ -22,6 +22,10 @@
     1px 1px 0 #000;
 }
 
+.pressMeButtonDiv {
+    padding: 30px;
+}
+
 #pressMeButton {
     background-color: rgb(0, 153, 255);
     z-index: -1;
@@ -32,10 +36,10 @@
 
 .sideColumn {
     height: 775px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .individualBox {
-    height: 365px;
-    background-color: green;
+    height: 350px;
+    /* background-color: green; */
 }
