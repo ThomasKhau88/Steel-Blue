@@ -32,9 +32,23 @@ var facts = [
 ];
 
 var image_array = [
-'dolphins.jpeg',
-'eagles.jpeg',
-'PolarBears.jpeg'
+'hamster.jpeg',
+'Swan.jpeg',
+'dogo.jpeg',
+'cats.jpeg',
+'coyote.jpeg',
+'cute.jpeg',
+'cute2.jpeg',
+'pup.jpeg',
+'beluga-whale-1.jpeg',
+'foxxy.jpeg',
+'Marine-Animals.jpeg',
+'sea.jpeg',
+'whaleshark.jpeg',
+'panda.jpeg',
+'1.jpeg',
+'2.jpeg',
+'3.jpeg'
 
 ];
 
@@ -46,11 +60,8 @@ function get_random_image(){
     selected_image = image_array[random_index]
   
     // Display the image
-    document.getElementById('image_shower').src = `./images/${selected_image}`
+    document.getElementById('image_shower').src = `./animalPics/${selected_image}`
   }
-
-
-
 
 function buttonclick(){
     var randOption = Math.floor(Math.random() * facts.length);
