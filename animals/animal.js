@@ -34,6 +34,7 @@ var facts = [
 function buttonclick(){
     var randOption = Math.floor(Math.random() * facts.length);
     document.getElementById('doThis').innerHTML = facts[randOption];
+    opacity=1;
 
 
 }
@@ -53,5 +54,8 @@ function facts() {
     $(".btn2").on("click", function(){
         animal.animate({opacity: "0"});
     });
+}
+function start(){
+    opacity=0;
 }
 
