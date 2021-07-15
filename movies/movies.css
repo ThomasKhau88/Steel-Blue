@@ -1,0 +1,16 @@
+.navCategory:hover {
+    background-color: #689CC7;
+}
+.nav-link {
+    color: white;
+}
+body{
+    background-color: lightblue;
+}
+#napoleon{
+    height: 540px;
+    width: 720px;
+}
+p{
+    font-size: 30px;
+}
