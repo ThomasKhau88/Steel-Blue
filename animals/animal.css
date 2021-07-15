@@ -82,7 +82,7 @@ background-image:linear-gradient(to bottom, rgb(33, 153, 143), rgba(47, 74, 150,
   }
 
   #doThis{
-      color: rgb(2, 34, 49);
+      color: rgb(2, 15, 49);
       font-size: 20px;
       
       text-align:center;
@@ -91,30 +91,9 @@ background-image:linear-gradient(to bottom, rgb(33, 153, 143), rgba(47, 74, 150,
       right:125px;
       width:200px;
       word-wrap: normal;
-      border: 1px dashed green;
-      
-      
-      
-
-      
-  }
-  .videogames{
-    color: rgb(0, 174, 255);
-    font-size: 40px;
-    margin:auto;
-    text-align:right;
-    padding-bottom: 100px;
-    padding-right: 100px;
-    width: 20%;
-    border: 1px dashed green;
+      border: 2px solid gold;
+      background-color: honeydew;
+          
   }
 
-  .sideColumn {
-    height: 775px;
-    background-color: red;
-}
 
-
-  #textright{
-      padding-left: 30px;
-  }
