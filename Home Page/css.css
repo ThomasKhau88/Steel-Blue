@@ -1,0 +1,20 @@
+.phrase{
+    text-emphasis-style: bold;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: xx-large;
+    border-style: ridge;
+    border-color: black;
+    font-family: fantasy;
+    color: white;
+}
+.page{
+    text-emphasis-style: bold;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: xx-large;
+    border-style: ridge;
+    border-color: black;
+    font-family: fantasy;
+    color: white;
+}
