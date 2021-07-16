@@ -1,9 +1,11 @@
-navCategory:hover {
-    background-color: #689CC7;
+.navCategory:hover {
+    background-color: #689cc7;
 }
+
 .nav-link {
     color: white;
 }
+
 
 body{
     background-color: blue;
