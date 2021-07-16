@@ -5,6 +5,10 @@ navCategory:hover {
     color: white;
 }
 
+body{
+    background-color: blue;
+}
+
 h1{
     color: purple;
     border-style: solid;
@@ -17,9 +21,10 @@ h1{
 }
 
 .food{
-    background-color: black;;
-    opacity: 0;
+    color: royalblue;
+    border-style: solid;
     font-size: large;
+    display: none;
 }
 
 .header{

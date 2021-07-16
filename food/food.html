@@ -2,13 +2,13 @@
 <html lang="en-us">
     <head>
         <title>Food</title>
-        <meta charset="UTF-8">
         <link rel="stylesheet" href="food.css"/> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="javalava.js"></script>        
+        <script src="food.js"></script>     
     </head>
-    <body onload="initialize()">
+
+    <body>
 
         <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: #4682B4;">
             <a class="navbar-brand" href="#" style = "color: white;">Random Site</a>
@@ -48,19 +48,21 @@
         <h1>Food Around The World</h1>
         <hr>
         <h2 class="header">Italy</h2>
-        <p>Italy is mainly known for the delicious pizza and pasta. The most famous pasta from Italy is penne and the most famous sauce is bolognese. The most popular pizza is margherita. If you click the button below, it will show you pictures of Italian food. </p>
-        <div id="thebutton1" class="button1">
-            <button>Show Italian Food</button>
-        </div>
-        <div id="thebutton2" class="button2">
-            <button>Hide Italian Food</button>
+        <p>Italy is mainly known for the delicious pizza and pasta. The most famous pasta from Italy is penne and the most famous sauce is bolognese. The most popular pizza is margherita. If you click the button below, it will show you a fun fact about Italian food. </p>
+
+        <div>
+            <button id="button1">Show Fun Fact</button>
         </div> 
-        <div class="food">
-            <img src="marghertiapizza.jpeg" alt="Margherita Pizza">
-        </div>  
+
+        <div>
+            <button id="button2">Hide Fun Fact</button>
+        </div>
+
+        <div class="food">Spaghetti and meatballs is not an Italian dish. Italians do not put meatballs on spaghetti.</div> 
+
         <hr>
         <h3 class="header">China</h3>
-        <p>The chinese cuisine is very popular among many countries. Some popular dishes are General Tso's chicken, egg rolls, and fried rice. </p>
+        <p>The chinese cuisine is very popular among many countries. Some popular dishes are General Tso's chicken, egg rolls, and fried rice. Click on the button below to learn a fun fact about chinese food.</p>
         <hr>
         <h4 class="header">Greece</h4>
         <p>Greece has amazing dishes consisting of Moussaka and Souvlaki.</p>
@@ -69,4 +71,5 @@
         <p>Obviously, tacos and burritos are staples in Mexico, but a very popular breakfast dish is chilaquiles. Chilaquiles is toasted corn tortilla with hot sauce, chicken, chorizo, shredded beef, and an egg on top.</p>
     </body>
 </html>
+
 
