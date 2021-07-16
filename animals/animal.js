@@ -73,7 +73,8 @@ function buttonclick(){
 function btndis1(){
     document.getElementById("aaaa").innerHTML = "";
     alert("Hover over images to learn more about them");
-    alert("Click on learn more to get more random fun facts!");
+    alert("Click on Learn More to get more random fun facts!");
+    alert("Click on Random Cute Animals for more pics!")
 }
 
 
