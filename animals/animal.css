@@ -1,3 +1,10 @@
+.navCategory:hover {
+  background-color: #689cc7;
+}
+
+.nav-link {
+  color: white;
+}
 
 
 .button{
@@ -145,11 +152,6 @@ background-image:linear-gradient(to bottom, rgb(33, 153, 143), rgba(47, 74, 150,
           
   }
 
-  .navCategory:hover {
-    background-color: #689CC7;
-}
-  .nav-link {
-    color: white;
-}
+
 
 
