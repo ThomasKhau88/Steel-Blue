@@ -1,10 +1,3 @@
-.navCategory:hover {
-    background-color: #689CC7;
-}
-.nav-link {
-    color: white;
-}
-
 .phrase{
     text-emphasis-style: bold;
     text-align: center;
@@ -14,11 +7,6 @@
     border-color: black;
     font-family: fantasy;
     color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
 .page{
     text-emphasis-style: bold;
@@ -29,9 +17,4 @@
     border-color: black;
     font-family: fantasy;
     color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
 }
