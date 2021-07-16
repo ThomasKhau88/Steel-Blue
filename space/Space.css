@@ -32,4 +32,11 @@ width: 50%}
     .space { 
         color: rgb(51, 51, 51);
         border-style: solid ;}
+    .info{
+        color: rgb(51, 51, 51);
+        background-color: #88c6f89c;
+        border-style:hidden;
+        border-color: darkslategray;
+        padding-top: 10px;
+}
 
