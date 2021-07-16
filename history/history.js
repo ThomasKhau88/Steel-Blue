@@ -53,9 +53,18 @@ $(document).ready(function() {
             $(`#${stuffDiv}`).append("<img src = './historyMemes/" + image + "' style = 'max-height: 775px, max-width: 400px', max-width: 100%; display: block; height: auto >");
 
         }
+
+        
+
     }
+
+
     // Detecting stuff
     $("#pressMeButton").on("click", buttonClicked);
+
+    
+
+
 
 });
 
