@@ -12,6 +12,7 @@ width: 50%}
     border-style:double;
     border-color:darkslategray;
     background-color: #c8dae9(74, 57, 88);
+    text-align: center;
 }
 
 #head {
@@ -32,6 +33,7 @@ width: 50%}
     .space { 
         color: rgb(51, 51, 51);
         border-style: solid ;}
+        
     .info{
         color: rgb(51, 51, 51);
         background-color: #88c6f89c;
