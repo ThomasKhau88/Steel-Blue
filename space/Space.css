@@ -1,7 +1,20 @@
-body {background-color: slategray;}
+
+body {background-color: #88c6f8;}
+
+.image 
+{ display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%}
+
+.head {
+    color: rgb(51, 51, 51);
+    border-style:double;
+    border-color:darkslategray;
+    background-color: #c8dae9(74, 57, 88);
+}
 
 #head {
-    color: white;
     text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -9,12 +22,14 @@ body {background-color: slategray;}
     1px 1px 0 #000,
     }
 
-    .nav-item:hover {
-        background-color: rgb(148, 145, 145),
-        
+    .navCategory:hover {
+        background-color: #689cc7;
     }
     
-    .nav-link{
-        color: white;
-        font-family: monospace;
-    }
+    .nav-link {
+        color: white;}
+
+    .space { 
+        color: rgb(51, 51, 51);
+        border-style: solid ;}
+

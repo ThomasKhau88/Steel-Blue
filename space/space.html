@@ -2,13 +2,13 @@
 <head>
     <link href="Space.css" type="text/css" rel="stylesheet">]
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="space.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
 </head>
 
 <body>
-    <style> h1 {text-align: center; }</style>
-        
-    
-    <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: #4682b4;">
+    <style> body{background-color: #689cc7;}</style>
+ <nav class="navbar navbar-expand-lg navbar-light" style = "background-color: #4682b4;">
         <a class="navbar-brand" href="#" style = "color: white;">Random Site</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,17 +44,37 @@
         </div>
     </nav>
 
-   
-    <div class = "container">
-        <div class = "text-center">
-            <button class="btn btn-primary btn-lg">Press Me!</button>
-        </div>
-    </div>
+    <style> h1 {text-align: center; }</style>
+    <h1> <div class= "head"> Random Facts About Space</div></h1>
+
     
-    <h1> Space </h1>
-    <div class= "space_title" >
-    <div class= "space_info_one">
-    <div class= "space_info_two">
-    <div class= "space_info_three">
+     <img class="image" src="planets.jpg" alt="planets">
+    
+   
+     <!-- <div>
+           <button id="button1">Information</button>
+     </div> 
+        
+     <div>
+           <button id="button2">Hide Fun Fact</button>
+     </div>
+     <div class= "space"> Test test test </div> -->
+    
+
+        <div>
+            <button onclick= "myFunction()" >Information</button>
+            <p id="demo"></p>
+            <script> function myFunction(){
+                document.getElementById("demo").innerHTML = "Space is absolutely silent. Because space has not atmosphere, sound waves are unable to travel. The sun contributes to over 95% of our solar systems mass. Each second, the sun fuses about 600 million tons of Hydrogen to Helium! Olympus Mons is three times the size of Mount Everest! A volcano on Mars is about 600 km in width (19,68,503 ft) and 21 km (68,897ft) in height "
+            }
+            </script>
+        </div> 
+    
+
+  <div class= "info">
+    
+
+</div> 
+
 </body>
 </html>
